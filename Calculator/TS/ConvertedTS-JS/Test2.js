@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const BasicCalculator_1 = require("./BasicCalculator");
+const ExpertCalculator_1 = require("./ExpertCalculator");
+let calc = new BasicCalculator_1.BasicCalculator();
+let calcExp = new ExpertCalculator_1.ExpertCalculator();
+console.log(calc.add(2, 3, 5));
+console.log(calc.dif(15, 10, 4));
+console.log(calc.mul(2, 5, 4));
+console.log(calc.div(8, 2, 2));
+console.log(calcExp.pow(2, 3));
+console.log(calcExp.fact(5));
+console.log(calcExp.sqrt(121));
